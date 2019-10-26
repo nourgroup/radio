@@ -252,7 +252,7 @@ class _MyHomePageState extends State<MyHomePage>
         bottom: TabBar(
           controller: tabC,
           tabs: [
-            Tab(icon: Icon(Icons.radio), text: "All radio"),
+            Tab(icon: Icon(Icons.radio), text: "All radios"),
             Tab(icon: Icon(Icons.flag), text: "Country"),
             Tab(icon: Icon(Icons.favorite), text: "Favorite"),
             Tab(icon: Icon(Icons.add_comment), text: "Add other"),
@@ -282,7 +282,7 @@ class _MyHomePageState extends State<MyHomePage>
                   searchTextField = AutoCompleteTextField<radio>(
                     style: new TextStyle(
                       color: Colors.black,
-                      fontSize: 16.0,
+                      fontSize: 15.0,
                     ),
                     decoration: new InputDecoration(
                         suffixIcon: Container(
