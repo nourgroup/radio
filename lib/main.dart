@@ -275,7 +275,7 @@ class _MyHomePageState extends State<MyHomePage>
           return TabBarView(
             controller: tabC,
             children: [
-              /* block all radio */
+              /** block all radio **/
               Column(
                 mainAxisSize: MainAxisSize.max,
                 children: <Widget>[
